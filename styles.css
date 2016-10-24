@@ -1,3 +1,45 @@
 body {
-	background: blue;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9c/2c/97/9c2c9717e35a7775dfd0795738c49fe7.jpg");
 }
+
+table, th, td {
+	padding: 2px;
+	border: 1px solid black;
+}
+
+table {
+	margin-left: 25px;	
+}
+
+footer {
+	text-align: center;
+}
+
+h1 {
+	font-family: Helvetica;
+}
+
+.orange {
+	color: orange;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: red;
+}
+
+#team-list {
+	font-size: 110%;
+}
+
+@media screen and (max-width: 500px) {
+	th, td {
+		font-size: 110%;
+	}
+	
+}
+
+
